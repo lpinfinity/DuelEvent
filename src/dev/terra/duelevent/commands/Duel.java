@@ -33,10 +33,10 @@ public class Duel implements CommandExecutor {
             player2 = strings[1];
 
             Bukkit.getPlayer(player1).teleport(main.locationData.getConfig().getLocation("location1"));
-            Bukkit.getPlayer(player1).setGameMode(GameMode.SURVIVAL);
+            Bukkit.getPlayer(player1).setGameMode(GameMode.ADVENTURE);
 
             Bukkit.getPlayer(player2).teleport(main.locationData.getConfig().getLocation("location2"));
-            Bukkit.getPlayer(player2).setGameMode(GameMode.SURVIVAL);
+            Bukkit.getPlayer(player2).setGameMode(GameMode.ADVENTURE);
 
         }
 
