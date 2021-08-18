@@ -1,0 +1,12 @@
+name: DuelEvent
+version: 1.0
+author: Eli Watkins
+main: dev.terra.duelevent.Main
+api-version: 1.13
+commands:
+  duel:
+    description: puts two players into a duel
+  setlocation1:
+    description: yes
+  setlocation2:
+    description: yes
